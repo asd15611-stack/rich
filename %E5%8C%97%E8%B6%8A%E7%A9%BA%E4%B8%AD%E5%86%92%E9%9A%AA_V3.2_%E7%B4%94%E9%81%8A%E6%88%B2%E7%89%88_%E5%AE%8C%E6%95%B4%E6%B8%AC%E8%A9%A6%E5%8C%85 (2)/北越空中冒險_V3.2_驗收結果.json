@@ -1,0 +1,262 @@
+[
+  {
+    "test": "mobile heading",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "mobile removed pages",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "mobile 10 gamecards",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "mobile taiwan monopoly present",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "mobile quiz open",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "mobile quiz close",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "mobile memory open",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "mobile memory close",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "mobile puzzle open",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "mobile puzzle close",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "mobile maze open",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "mobile maze close",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "mobile shaft open",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "mobile shaft exit",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "mobile fishing open",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "mobile fishing exit",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "mobile bbq open",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "mobile bbq exit",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "mobile catdog open",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "mobile catdog exit",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "mobile heel open",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "mobile heel exit",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "mobile monopoly panel open",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "mobile monopoly iframe loaded",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "mobile monopoly close",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "mobile no top-level errors",
+    "passed": true,
+    "detail": "[]"
+  },
+  {
+    "test": "desktop heading",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "desktop removed pages",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "desktop 10 gamecards",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "desktop taiwan monopoly present",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "desktop quiz open",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "desktop quiz close",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "desktop memory open",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "desktop memory close",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "desktop puzzle open",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "desktop puzzle close",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "desktop maze open",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "desktop maze close",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "desktop shaft open",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "desktop shaft exit",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "desktop fishing open",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "desktop fishing exit",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "desktop bbq open",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "desktop bbq exit",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "desktop catdog open",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "desktop catdog exit",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "desktop heel open",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "desktop heel exit",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "desktop monopoly panel open",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "desktop monopoly iframe loaded",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "desktop monopoly close",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "desktop no top-level errors",
+    "passed": true,
+    "detail": "[]"
+  }
+]
