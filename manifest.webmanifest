@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "北越空中冒險｜純遊戲館",
+  "short_name": "北越遊戲館",
+  "description": "十款離線小遊戲，包含台灣大富翁 V1.6.8",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fffcf6",
+  "theme_color": "#fbf6eb",
+  "lang": "zh-TW",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

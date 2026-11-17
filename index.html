@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-Hant"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/><meta content="#fbf6eb" name="theme-color"/><title>北越空中冒險 V3.2｜遊戲專用版</title><style>:root{--bg:#fffcf6;--ink:#353736;--line:#434443;--rose:#f2a497;--sun:#f6d27a;--sky:#a8d3e6;--leaf:#b9daa5;--muted:#686b6c}
+<html lang="zh-Hant"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/><meta content="#fbf6eb" name="theme-color"/><title>北越空中冒險 V3.2.1｜手機安裝版</title><link rel="manifest" href="./manifest.webmanifest"/><meta name="application-name" content="北越空中冒險"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-title" content="北越遊戲館"/><meta name="apple-mobile-web-app-status-bar-style" content="default"/><link rel="apple-touch-icon" href="./icon-192.png"/><link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png"/><style>:root{--bg:#fffcf6;--ink:#353736;--line:#434443;--rose:#f2a497;--sun:#f6d27a;--sky:#a8d3e6;--leaf:#b9daa5;--muted:#686b6c}
 *{box-sizing:border-box}
 html,body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans TC",sans-serif}
 .wrap{max-width:640px;margin:auto;padding:16px}
@@ -64,7 +64,7 @@ a{color:#174e71}
 #arcadePanel.heelMode .arcadeStats{gap:4px;font-size:12px}
 #arcadePanel.heelMode .arcadeStats span{padding:4px 6px}
 @media(max-width:390px){#arcadePanel.heelMode{padding:8px}#arcadePanel.heelMode #arcadeCanvas{border-width:2px}}
-body{padding-bottom:16px;} #page-games{display:block;} .games{margin-bottom:10px;}</style></head><body><main class="wrap"><header class="top"><div class="brand">🎮 北越空中冒險</div><span class="chip">V3.2 · 遊戲專用版</span></header><section class="" id="page-games"><h2>🎮 遊戲館</h2><p class="muted">十款遊戲都在這裡，點選即可遊玩。大富翁支援四人與電腦 AI；街機紀錄與大富翁進度分別保存於本機。</p><div class="games" style="margin-top:13px"><button class="gamecard" data-game="quiz"><div class="emoji">🇻🇳</div><b>旅行英文挑戰</b><small>5 題旅行情境問答</small></button><button class="gamecard" data-game="memory"><div class="emoji">🃏</div><b>越南翻牌配對</b><small>配對 6 組旅遊圖案</small></button><button class="gamecard" data-game="puzzle"><div class="emoji">🧩</div><b>沙壩九宮拼圖</b><small>移動圖塊完成排序</small></button><button class="gamecard" data-game="maze"><div class="emoji">🧭</div><b>下龍迷宮尋寶</b><small>走出迷宮取得寶物</small></button></div><h3 style="margin:17px 0 10px">🕹️ 北越街機遊樂園</h3><div class="games"><button class="gamecard" data-arcade="shaft"><div class="emoji">⛰️</div><b>番西邦雲端跳躍</b><small>追頂、消失平台、尖刺與傳送帶，失敗才結束</small></button><button class="gamecard" data-arcade="fishing"><div class="emoji">🎣</div><b>下龍灣海釣</b><small>瞄準稀有魚、控制拉力、避開河豚</small></button><button class="gamecard" data-arcade="bbq"><div class="emoji">🍢</div><b>河內街頭 BBQ</b><small>多塊烤肉、翻面、沾醬、連擊得分</small></button><button class="gamecard" data-arcade="catdog"><div class="emoji">🐱🐶</div><b>貓狗大戰</b><small>看風向、調角度、蓄力拋物線對戰；單人 AI／雙人</small></button><button class="gamecard" data-arcade="heel"><div class="emoji">👠🔨</div><b>敲鞋跟</b><small>抓住時機敲掉一層！敲歪會失去平衡</small></button></div><div class="games" style="margin-top:12px"><button class="gamecard" id="twMonopolyOpen" type="button"><div class="emoji">🚗🎲</div><b>台灣大富翁 V1.6.8</b><small>四人・AI・汽車雙骰・大型建地・獨立存檔</small></button></div><section aria-label="台灣大富翁遊戲區" class="panel hidden" id="twMonopolyPanel">
+body{padding-bottom:16px;} #page-games{display:block;} .games{margin-bottom:10px;}</style></head><body><main class="wrap"><header class="top"><div class="brand">🎮 北越空中冒險</div><span class="chip">V3.2.1 · 手機安裝版</span></header><div id="installArea" style="margin:12px 0;display:flex;align-items:center;flex-wrap:wrap;gap:8px"><button id="installGame" type="button" class="btn sky">📲 安裝到手機</button><small id="installHint" class="muted">安裝後可從主畫面開啟；離線快取在第一次連線後建立</small></div><section class="" id="page-games"><h2>🎮 遊戲館</h2><p class="muted">十款遊戲都在這裡，點選即可遊玩。大富翁支援四人與電腦 AI；街機紀錄與大富翁進度分別保存於本機。</p><div class="games" style="margin-top:13px"><button class="gamecard" data-game="quiz"><div class="emoji">🇻🇳</div><b>旅行英文挑戰</b><small>5 題旅行情境問答</small></button><button class="gamecard" data-game="memory"><div class="emoji">🃏</div><b>越南翻牌配對</b><small>配對 6 組旅遊圖案</small></button><button class="gamecard" data-game="puzzle"><div class="emoji">🧩</div><b>沙壩九宮拼圖</b><small>移動圖塊完成排序</small></button><button class="gamecard" data-game="maze"><div class="emoji">🧭</div><b>下龍迷宮尋寶</b><small>走出迷宮取得寶物</small></button></div><h3 style="margin:17px 0 10px">🕹️ 北越街機遊樂園</h3><div class="games"><button class="gamecard" data-arcade="shaft"><div class="emoji">⛰️</div><b>番西邦雲端跳躍</b><small>追頂、消失平台、尖刺與傳送帶，失敗才結束</small></button><button class="gamecard" data-arcade="fishing"><div class="emoji">🎣</div><b>下龍灣海釣</b><small>瞄準稀有魚、控制拉力、避開河豚</small></button><button class="gamecard" data-arcade="bbq"><div class="emoji">🍢</div><b>河內街頭 BBQ</b><small>多塊烤肉、翻面、沾醬、連擊得分</small></button><button class="gamecard" data-arcade="catdog"><div class="emoji">🐱🐶</div><b>貓狗大戰</b><small>看風向、調角度、蓄力拋物線對戰；單人 AI／雙人</small></button><button class="gamecard" data-arcade="heel"><div class="emoji">👠🔨</div><b>敲鞋跟</b><small>抓住時機敲掉一層！敲歪會失去平衡</small></button></div><div class="games" style="margin-top:12px"><button class="gamecard" id="twMonopolyOpen" type="button"><div class="emoji">🚗🎲</div><b>台灣大富翁 V1.6.8</b><small>四人・AI・汽車雙骰・大型建地・獨立存檔</small></button></div><section aria-label="台灣大富翁遊戲區" class="panel hidden" id="twMonopolyPanel">
 <div class="row" style="gap:9px;flex-wrap:wrap"><strong>🚗 台灣大富翁 V1.6.8</strong><div class="row" style="gap:6px"><button class="btn small sky" id="twMonopolyFull" type="button">⛶ 放大畫面</button><button class="btn small secondary" id="twMonopolyClose" type="button">✕ 返回遊戲館</button></div></div>
 <p class="muted" style="margin:9px 0">🎲 台灣大富翁 V1.6.8：首次遊玩請先選角。若需沿用舊網址的進度，請使用遊戲內的 JSON 匯出／匯入；既有本機存檔不會主動清除。</p>
 <iframe allow="fullscreen" id="twMonopolyFrame" loading="eager" style="display:block;width:100%;height: min(76dvh, 860px);min-height:520px;border:2px solid #3e3a39;border-radius:14px;background:#fffcf6" title="台灣大富翁 V1.6.8"></iframe>
@@ -332,5 +332,28 @@ document.getElementById('twMonopolyClose').addEventListener('click',closeGame);
 document.getElementById('twMonopolyFull').addEventListener('click',()=>{if(frame.requestFullscreen)frame.requestFullscreen().catch(()=>{});else alert('這個瀏覽器不支援放大畫面，可以改為橫向使用手機。');});
 
 document.querySelectorAll('[data-game],[data-arcade]').forEach(el=>el.addEventListener('click',closeGame));
+})();
+</script><script id="north-air-pwa">
+(()=>{
+  const b=document.getElementById('installGame');
+  const label=document.getElementById('installHint');
+  let deferred=null;
+  const standalone=()=>window.matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
+  if(standalone()){b.hidden=true;label.textContent='已從手機主畫面開啟';}
+  window.addEventListener('beforeinstallprompt',e=>{
+    e.preventDefault();deferred=e;b.hidden=false;label.textContent='已可安裝，請點左邊按鈕';
+  });
+  window.addEventListener('appinstalled',()=>{b.hidden=true;label.textContent='已安裝成功';deferred=null;});
+  b.addEventListener('click',async()=>{
+    if(deferred){const prompt=deferred;deferred=null;try{await prompt.prompt();await prompt.userChoice;}catch(e){console.warn('安裝未完成',e);}return;}
+    if(/iPad|iPhone|iPod/.test(navigator.userAgent)){
+      alert('iPhone：請用 Safari 開啟此網址，按「分享」→「加入主畫面」。');
+    }else{
+      alert('Android：用 Chrome 開啟此網址，按右上角 ⋮ →「安裝應用程式」或「加到主畫面」。若無此選項，請確認 HTTPS 和 PWA 檔案已全部上傳。');
+    }
+  });
+  if('serviceWorker' in navigator){
+    window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js',{scope:'./'}).catch(err=>console.warn('PWA 離線註冊失敗',err)));
+  }
 })();
 </script></body></html>
